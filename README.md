@@ -1,4 +1,3 @@
-"# Honeypot" 
 🛡️ Honeypot Web Security System
 
 This project is a Django-based honeypot designed to detect and log unauthorized login attempts. It simulates vulnerable pages to attract attackers and records their behavior for security analysis.
@@ -76,10 +75,17 @@ Extended Django admin for viewing logs
 ASGI-configured for better concurrency
 
 Installation
+
 git clone <repo-url>
+
 cd honeypot
+
 python -m venv env
+
 source env/bin/activate
+
 pip install -r requirements.txt
+
 python manage.py migrate
+
 python manage.py runserver
